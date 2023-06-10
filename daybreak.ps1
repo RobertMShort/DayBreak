@@ -3,6 +3,8 @@ $new = $args[0]
 if (-not(Test-Path -Path C:\windows\temp\start.txt -PathType Leaf) -or $new -eq "-n")
 {
 
+type daybreaklogo.txt
+
 $a = @()
 
 while ($program -ne 'q')
@@ -32,6 +34,12 @@ for ($i = 0; $i -lt $b.Length; $i++)
 }
 
 else {
+
+	type daybreaklogo.txt
+
+	Write-Host "Starting Processes: "
+	Get-Content -Path C:\windows\temp\start.txt
+
 	$c = Get-Content -Path @("C:\windows\temp\start.txt")
 
 	for ($i = 0; $i -lt $c.Length; $i++)
