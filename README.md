@@ -1,4 +1,15 @@
 # DayBreak
+
+
+                ______           ______                _    
+                |  _  \          | ___ \              | |   
+                | | | |__ _ _   _| |_/ /_ __ ___  __ _| | __
+                | | | / _` | | | | ___ \ '__/ _ \/ _` | |/ /
+                | |/ / (_| | |_| | |_/ / | |  __/ (_| |   < 
+                |___/ \__,_|\__, \____/|_|  \___|\__,_|_|\_\
+                             __/ |                          
+                            |___/       
+
 PowerShell script to automatically start multiple programs.
 
 Enter in a list of programs you need to start your work day once, and autmatically start them all at once every day with one command!
